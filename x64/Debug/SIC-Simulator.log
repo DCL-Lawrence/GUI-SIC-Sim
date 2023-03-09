@@ -1,0 +1,5 @@
+﻿  SIC-API.cpp
+D:\ncnu\level 3\first-semester\WindowsProgramming\Final\SIC-Simulator\SIC-API.cpp(148,36): warning C4267: '+=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\ncnu\level 3\first-semester\WindowsProgramming\Final\SIC-Simulator\SIC-API.cpp(158,42): warning C4267: '+=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\ncnu\level 3\first-semester\WindowsProgramming\Final\SIC-Simulator\SIC-API.cpp(249): warning C4715: 'CSICSimulatorView::FromReg': 不是所有控制路徑都傳回值
+  SIC-Simulator.vcxproj -> D:\ncnu\level 3\first-semester\WindowsProgramming\Final\SIC-Simulator\x64\Debug\SIC-Simulator.exe
