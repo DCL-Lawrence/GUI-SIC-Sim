@@ -225,6 +225,10 @@ void CSICSimulatorView::OnBnClickedIn()
     for (int i = 1004; i < 1009; i++) {
         GetDlgItem(i)->SetWindowTextW(L"000000");
     }
+
+    for (int i = 0; i < loc.size(); ++i) {
+        static_cast<CComboBox*>(GetDlgItem(IDC_ADDR))->AddString(CA2W(loc.at(i).c_str()));
+    }
 }
 
 void CSICSimulatorView::OnBnClickedStep()
@@ -364,10 +368,7 @@ void CSICSimulatorView::OnBnClickedFile()
 
 void CSICSimulatorView::OnBnClickedGo()
 {
-    CString temp;
-    GetDlgItem(IDC_ADDR)->GetWindowTextW(temp);
+    int index = static_cast<CComboBox*>(GetDlgItem(IDC_ADDR))->GetCurSel();
 
-    string addr = CW2A(temp.GetString());
-
-    Do(addr);
+    Do(loc.at(index));
 }

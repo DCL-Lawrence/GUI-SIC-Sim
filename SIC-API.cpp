@@ -475,7 +475,7 @@ void CSICSimulatorView::DivReg() {
 
 void CSICSimulatorView::Do(string addr) {
     while (1) {
-        string temp(loc.at(current).begin(), loc.at(current).end() - 1);
+        string temp = loc.at(current);
         OnBnClickedStep();
         if (temp == addr)
             break;
