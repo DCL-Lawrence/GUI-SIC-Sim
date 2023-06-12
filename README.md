@@ -12,4 +12,4 @@ You can see what will happen after step by step, including the changes of regist
 4. "load input file" button -> Import your text file as input. You will see your content is shown on input window. 
 
 ## Interface
-![image](https://github.com/DCL-Lawrence/GUI-SIC-Sim/blob/main/interface.png)
+![image](https://github.com/DCL-Lawrence/GUI-SIC-Sim/blob/main/res/interface.png)
