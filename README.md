@@ -10,3 +10,4 @@ You can see what will happen after step by step, including the changes of regist
 2. "step" button -> Execute the current line.
 3. "Address" window and "Go to" button -> Execute instruction until achieved the line with particular address.
 4. "load input file" button -> Import your text file as input. You will see your content is shown on input window. 
+"# SIC_Simulator" 
