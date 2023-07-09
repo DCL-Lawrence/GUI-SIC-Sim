@@ -2,7 +2,7 @@
 ## Introduction
 This application was written in Mincrosoft Visual Studio 2022, and it can only run on Windows system. 
 It's is the application to run simple instruction computer (SIC) assembly language with GUI.
-This application will give addresses and object code for every lines with your imported program.
+This application will give addresses and object code for each lines with your imported program.
 You can see what will happen after step by step, including the changes of register, input or output.
 
 ## Usage
