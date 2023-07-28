@@ -236,9 +236,6 @@ void CSICSimulatorView::OnBnClickedStep()
     CString point;
     string opcode;
 
-    // show programming counter
-    GetDlgItem(IDC_PC)->SetWindowTextW(CA2W(loc[current].c_str()));
-
     pointer[current] = L"->\r\n";
     for (int i = 0; i < pointer.size(); i++) {
         point += pointer[i];
@@ -335,6 +332,9 @@ void CSICSimulatorView::OnBnClickedStep()
     }
 
     current++;
+
+    // show programming counter
+    GetDlgItem(IDC_PC)->SetWindowTextW(CA2W(loc[current].c_str()));
 
     GetDlgItem(IDC_OUTPUT)->SetWindowTextW(output);
 }
