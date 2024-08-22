@@ -138,7 +138,7 @@ void CSICSimulatorView::Pass1(map<string, int*>& integer, map<string, int>& subr
         else if (opcode.compare("RESB") == false) {
             loc += stoi(GetOper(input));
             string temp = GetLabel(input);
-            int* a = new int[stoi(GetOper(input))];
+            int* a = new int[stoi(GetOper(input)) / sizeof(int)];
             integer[temp] = a;
         }
         else if (opcode.compare("BYTE") == false) {
